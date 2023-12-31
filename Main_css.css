@@ -1,0 +1,126 @@
+body {
+    font-family: 'Roboto';font-size: 18px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#searchitem{
+  width: 45vw;
+  border: none;
+  padding: 10px;
+  border-radius: 15px;
+}
+#cartbut{
+    background-color: rgb(12, 131, 31);
+    border-radius: 8px;
+    cursor: pointer;
+    height: 52px;
+    width: 112px;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    display: flex;
+}
+#section-1{
+ margin-left: 140px; 
+ margin-right: 140px; 
+}
+
+#section3{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 80vw;
+  margin: auto;
+}
+.card1{
+  width: 78vw;
+  margin: auto;
+}
+.Scrollaber1{
+  white-space: nowrap;
+  overflow: hidden;
+  overflow-x: scroll;
+}
+.Scrollaber1>img{
+  display: inline-block;
+}
+#nativetext{
+  width: 78vw;
+  margin: auto;
+}
+#section4{
+  width: 80vw;
+  margin: auto;
+}
+
+.new{
+  white-space: nowrap;
+  overflow: hidden;
+  overflow-x: scroll;
+  padding: 8px;
+}
+
+
+.s4_E1{
+  width: 200px;
+  padding: 10px;
+  display: inline-block;
+  margin-right: 20px;
+  margin-top: 20px;
+  white-space: nowrap;
+
+  
+}
+#S4_bt1{
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+
+.s4_img1{
+  display: flex;
+  overflow: hidden;  
+  margin-left: 18px;
+}
+#s4_wt1{
+  color: grey;
+}
+#s4_T2{
+  overflow: hidden;
+  } 
+#fot{
+  text-align: center;
+}
+
+
+
+@media only screen and (max-width: 767px) {
+  #firsnav{
+    flex-direction: column;
+    padding: 15px;
+  }
+  #Location{
+    text-align: center;
+  }
+  #section-1{
+    display: none !important;
+  }
+  .card1{
+    padding-top: 30px !important;
+   
+  }
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
